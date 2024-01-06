@@ -1,0 +1,45 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 50%;
+  border: 1px solid gray;
+  margin: auto;
+  text-align: center;
+  padding: 24px 20px;
+}
+
+.button-top {
+  height: 36px;
+  padding: 0 20px;
+  background-color: rgb(133 152 204);
+  color: #fff;
+  border: 1px solid transparent;
+}
+
+.heading {
+  font-size: 24px;
+  padding: 24px 0;
+}
+
+.heading-child {
+  color: blue;
+  font-weight: 700;
+}
+
+.button-group {
+  margin-top: 24px;
+}
+
+.button-black {
+  height: 36px;
+  padding: 0 20px;
+  background-color: black;
+  color: #fff;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}

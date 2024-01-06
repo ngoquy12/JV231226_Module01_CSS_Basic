@@ -1,0 +1,59 @@
+/* Reset CSS - Xóa bỏ các CSS mặc định của các thẻ */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.heading-3 {
+  color: red;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-style: italic;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  text-align: center;
+  line-height: 200px;
+  padding: 10px 12px 14px 16px;
+  /* border: kích thước kiểu border màu border */
+  /* border: 5px solid blue; */
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgb(47, 255, 0);
+  margin: 10px 20px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.box-1 {
+  height: 100px;
+  width: 100%;
+  background-color: blue;
+}
+
+.box-2 {
+  height: 50%;
+  width: 50%;
+  background-color: aqua;
+}
+
+/* Bộ thuộc tính CSS background */
+.container {
+  height: 300px;
+  width: 500px;
+  background-color: aqua;
+  background-image: url(../images/anh-thien-nhien.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+}
